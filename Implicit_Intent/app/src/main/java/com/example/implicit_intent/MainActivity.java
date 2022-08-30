@@ -35,7 +35,7 @@ public class MainActivity extends Activity {
 
                 Intent intent = new Intent(Intent.ACTION_SENDTO);
                 intent.setData(Uri.parse("mailto:")); // only email apps should handle this
-                intent.putExtra(Intent.EXTRA_EMAIL, "gokulvsnair@gmail.com");
+                intent.putExtra(Intent.EXTRA_EMAIL, "alengeorge8212@gmail.com");
                 intent.putExtra(Intent.EXTRA_SUBJECT, "Test mail");
                 startActivity(intent);
 

@@ -34,11 +34,11 @@ public class MainActivity extends AppCompatActivity {
         LL.setOrientation(LinearLayout.VERTICAL);
         LL.setGravity(Gravity.CENTER);
 
-        B.setText("Sample Button");
+        B.setText("BUTTON");
 
         B.setBackgroundColor(Color.BLUE);
 
-        T.setText("Sample Text");
+        T.setText("TEXT");
         T.setTextSize(34);
         T.setTextColor(Color.WHITE);
         T.setTextAlignment(View.TEXT_ALIGNMENT_CENTER);
