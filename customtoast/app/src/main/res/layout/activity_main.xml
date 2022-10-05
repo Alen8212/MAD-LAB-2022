@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/uname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="enter username" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:id="@+id/pass"
+        android:hint="enter password"
+        android:layout_gravity="center"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="148dp"
+            android:layout_height="wrap_content"
+            android:text="COURSE" />
+
+        <RadioButton
+
+            android:layout_width="132dp"
+            android:layout_height="match_parent"
+            android:text="BTECH" />
+        <RadioButton
+
+            android:layout_width="148dp"
+            android:layout_height="wrap_content"
+            android:text="MCA"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="INTEREST" />
+
+        <CheckBox
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="library" />
+
+        <CheckBox
+            android:id="@+id/radioButton2"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="arts" />
+
+        <CheckBox
+            android:id="@+id/radioButton1"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="sports" />
+
+        <CheckBox
+
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="music" />
+
+
+    </LinearLayout>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/b1"
+        android:text="submit"
+        android:layout_gravity="center"
+        />
+
+
+
+
+</LinearLayout>
+
