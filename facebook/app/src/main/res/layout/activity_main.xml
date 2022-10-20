@@ -81,7 +81,7 @@
         android:layout_below="@id/chk"
         android:id="@+id/sign"
         android:backgroundTint="@color/purple_700"
-        android:layout_marginBottom="20dp"
+        android:layout_marginBottom="21dp"
         />
 <TextView
     android:layout_width="match_parent"
@@ -91,7 +91,7 @@
     android:text="Need an Account? \n Sign up"
     android:layout_below="@id/sign"
 
-
+></TextView>
 
 
 </RelativeLayout>
