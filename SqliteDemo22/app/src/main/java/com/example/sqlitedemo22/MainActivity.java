@@ -185,6 +185,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             cv.put("name", username);
             cv.put("location", password);
             long rowid = db.insert("dept", null, cv);
+
             return rowid;
         }
 
@@ -201,7 +202,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 buffer.append(pid + " --- " + name + " --- " + password + "\n");
             }
             return buffer.toString();
+
         }
+
 
         public String getData(String username) {
             //SELECT name, location FROM dept WHERE name = "”

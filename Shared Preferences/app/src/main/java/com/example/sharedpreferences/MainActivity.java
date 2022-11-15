@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 public class MainActivity extends Activity {
     @Override
@@ -26,9 +27,16 @@ public class MainActivity extends Activity {
                 editor.putString("value", value);
                 editor.putString("value1", value1);
                 editor.apply();
+                if(value.equals("hcn") && value1.equals("123"))
+                {
                 Intent intent = new Intent(MainActivity.this, SecondActivity.class);
                 startActivity(intent);
+
             }
+                else
+                {
+                    Toast.makeText(this,"INvalid")
+                }
         });
     }
 }

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">demo</string>
+    <string name="add">Add User</string>
+    <string name="all">View All</string>
+</resources>
